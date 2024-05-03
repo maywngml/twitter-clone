@@ -1,11 +1,13 @@
+export type User = {
+  id: string;
+  username: string;
+  name: string;
+  image?: string;
+};
+
 export type TweetItem = {
   id: string;
-  user: {
-    id: string;
-    username: string;
-    name: string;
-    image: string;
-  };
+  user: User;
   createdAt: string;
   content: string;
   image?: string;
