@@ -1,4 +1,6 @@
-const tweets = [
+import { TweetItem } from '@/types/Tweet';
+
+const tweets: TweetItem[] = [
   {
     id: 't0',
     user: {
